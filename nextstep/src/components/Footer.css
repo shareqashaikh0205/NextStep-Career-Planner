@@ -1,0 +1,162 @@
+/* ==================================================
+   NEXTSTEP | PROFESSIONAL PURPLE-LAVENDER FOOTER
+================================================== */
+
+.next-footer {
+  background: #242130;
+  color: #E7E2F0;
+  padding: 58px 0 22px;
+  margin-top: auto;
+  flex-shrink: 0;
+  position: relative;
+  border-top: 1px solid #4B435F;
+}
+
+.footer-content {
+  padding-bottom: 38px;
+}
+
+/* Brand and description */
+.footer-logo {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: -0.6px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.footer-logo span {
+  color: #C6B7F0;
+}
+
+.footer-tagline {
+  color: #C6B7F0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.footer-description {
+  max-width: 430px;
+  color: #D0CADA;
+  font-size: 18px;
+  line-height: 1.9;
+  margin-bottom: 0;
+}
+
+/* Footer link groups */
+.footer-links h5 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 22px;
+}
+
+.footer-links a {
+  display: block;
+  width: fit-content;
+  color: #D0CADA;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  text-decoration: none;
+  margin-bottom: 15px;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.footer-links a:hover,
+.footer-links a:focus-visible {
+  color: #D6C9FF;
+  transform: translateX(3px);
+}
+
+/* Encouraging message panel */
+.footer-message {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  margin-top: 24px;
+  padding: 17px 18px;
+  background: #302B40;
+  border: 1px solid #4B435F;
+  border-radius: 12px;
+}
+
+.footer-message-icon {
+  color: #C6B7F0;
+  font-size: 23px;
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+
+.footer-message p {
+  color: #E0DAEA;
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* Copyright area */
+.footer-bottom {
+  border-top: 1px solid #484154;
+  padding-top: 22px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: #F5F2FA;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.footer-bottom small {
+  display: block;
+  color: #BEB5CF;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Keyboard accessibility */
+.next-footer a:focus-visible {
+  outline: 2px solid #C6B7F0;
+  outline-offset: 4px;
+  border-radius: 3px;
+}
+
+/* Responsive footer */
+@media (max-width: 767px) {
+  .next-footer {
+    padding: 42px 0 20px;
+  }
+
+  .footer-content {
+    padding-bottom: 28px;
+  }
+
+  .footer-logo {
+    font-size: 29px;
+  }
+
+  .footer-tagline {
+    font-size: 15px;
+  }
+
+  .footer-description,
+  .footer-links a {
+    font-size: 14px;
+  }
+
+  .footer-links h5 {
+    font-size: 17px;
+    margin-bottom: 16px;
+  }
+
+  .footer-message {
+    max-width: 100%;
+  }
+}
